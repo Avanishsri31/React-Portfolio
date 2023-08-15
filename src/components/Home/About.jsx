@@ -24,7 +24,7 @@ const About = () => {
                  and I'm from <span className="yellow"> Gorakhpur, UttarPradesh, India.</span>
                 <br />
                 <br />
-                I am currently a 3rd-year undergraduate in the Computer Science Engineering Concentration at Pranveer Singh Institute of Technology, Kanpur.
+                I am currently a 4th-year undergraduate in the Computer Science and Engineering Concentration at Pranveer Singh Institute of Technology, Kanpur.
                 <br />
                 <br />
                   As a
