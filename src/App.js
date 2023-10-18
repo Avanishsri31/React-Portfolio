@@ -11,6 +11,7 @@ import Skill from './pages/Skillset'
 import Project from './pages/Projects'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
+import StarCanvas from './components/stars/stars'
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -39,7 +40,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+        <Route path='/' element={<div className='relative'><Home/><StarCanvas/></div> } />
           <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
